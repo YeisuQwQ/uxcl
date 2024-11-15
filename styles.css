@@ -66,7 +66,6 @@ body {
 .product-display {
     margin: 15px;
     padding: 15px;
-    background-color: rgba(255, 255, 255, 0.8); /* 添加透明度 */
 }
 .product-display h2 {
     color: #c44631;
