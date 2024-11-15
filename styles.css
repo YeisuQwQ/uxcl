@@ -1,0 +1,109 @@
+body {
+    font-family: '微软雅黑', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/backgroud.jpg'); /* 替换为您的背景图片路径 */
+    background-size: cover; /* 覆盖整个屏幕 */
+    background-position: center; /* 居中显示 */
+    background-repeat: no-repeat; /* 不重复 */
+    background-attachment: fixed; /* 固定背景，不随页面滚动 */
+}
+.header {
+    background-color: rgba(196, 70, 49, 0.85); /* 添加透明度 */
+    color: white;
+    padding: 10px 0;
+    overflow: hidden;
+}
+.logo {
+    float: left;
+    margin-left: 15px;
+    height: 50px; /* 根据实际Logo大小调整 */
+    width: auto;
+}
+.logo img {
+    height: 100%;
+}
+.header h1 {
+    float: left;
+    margin: 0 0 0 15px;
+    padding: 10px 0;
+}
+.nav {
+    float: right;
+}
+.nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.main {
+    margin: 15px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.8); /* 添加透明度 */
+}
+.footer {
+    background-color: rgba(51, 51, 51, 0.85); /* 添加透明度 */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.product-display {
+    margin: 15px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.8); /* 添加透明度 */
+}
+.product-display h2 {
+    color: #c44631;
+}
+.product-item {
+    overflow: hidden; /* 防止内容溢出 */
+    margin-bottom: 15px; /* 增加产品项之间的间距 */
+}
+.product-image {
+    float: left; /* 图片靠左 */
+    width: 30%; /* 图片宽度 */
+    margin-right: 5%; /* 图片与文本之间的间距 */
+}
+.product-image img {
+    max-width: 100%;
+    height: auto;
+}
+.product-content {
+    float: right; /* 文本靠右 */
+    width: 65%; /* 文本宽度 */
+}
+.product-content h3 {
+    margin-top: 0;
+}
+/* 清除浮动，防止影响其他元素 */
+.product-display:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.history {
+    margin: 15px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.8); /* 添加透明度 */
+}
+.news {
+    margin: 15px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.8); /* 添加透明度 */
+}
